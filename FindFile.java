@@ -12,7 +12,7 @@ public class FindFile {
 		System.out.println("Enter file to Find : ");
 		String fileToFind = sc.next();
 		
-		String fd = "D:\\kvaluvent\\IOStreams";
+		String fd = "FILEPATH TILL FILE DIRECTORY";
 		File file = new File(fd +"\\"+fileToFind );
 		File fileDirectory = new File(fd);
 		
