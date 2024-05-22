@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form class="my-form" action="#" onsubmit="return validateForm()">
+        <label for="name">Name: </label>
+        <input id="name" type="text" name="name" placeholder="Enter Name"><span id="nameError" class="error"></span><br>
+        
+        <label for="email">Email id: </label>
+        <input id="email" type="email" name="email" placeholder="Enter Email"><span id="emailError" class="error"></span><br>
+        
+        <label for="contactNo">Contact No: </label>
+        <input id="contactNo" type="text" name="contactNo" placeholder="Enter Contact No"><span id="contactNoError" class="error"></span><br>
+        
+        <label for="account">Account Type:</label>
+        <select name="type" id="type">
+            <option value="">Select Account Type</option>
+            <option value="savings">Savings</option>
+            <option value="current">Current</option>
+        </select><span id="accountTypeError" class="error"></span><br>
+        
+        <input type="submit" class="button" value="Add Customer">
+    </form>
+    
+    <table id="customerTable"  class ="customerTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+                <th>Account Type</th>
+            </tr>
+        </thead>
+        <tbody id="customerTableBody"></tbody>
+    </table>
+
+    
+</body>
+</html>

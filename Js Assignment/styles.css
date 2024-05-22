@@ -1,0 +1,41 @@
+
+
+.my-form {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+
+.my-form input{
+    margin-bottom: 25px;
+    width: 60%;
+}
+
+.my-form select{
+    margin-bottom: 25px;
+}
+
+.button{
+    background-color: #007bff;
+    max-width: 25%;
+    padding:  5px;
+    border-radius: 5px;
+    color :#fff
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
